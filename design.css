@@ -1,0 +1,144 @@
+.head{
+    background-color:#1e82b6;
+    width: 100%;
+    height: 40px;
+    padding: 0%;
+    margin: 0%;
+}
+.body{
+    /* width: 100%; */
+    /* padding: 0%; */
+    margin: 0%;
+}
+.span{
+    width: 1000px;
+    margin:auto;
+    font-family: Arial;
+    font-size: 16px;
+    color: #eee;
+    line-height: 40px;
+    padding: 0%;
+}
+.menu{
+    background-color: white;
+    border-style: none;
+    width: 100%;
+    height: 100px;
+}
+.image{
+    width: 100%;
+    height:100%;
+    position: absolute;
+    margin: 0%;
+    padding: 0%;
+    /* align-content: center; */
+}
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+}
+/* .container {
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    border: 1px solid rgb(51, 51, 51);
+} */
+.sba{
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+    text-align: left;
+    float: left;
+   
+}
+
+  .column {
+    float: left;
+    width: 23.33%;
+    color: #666666;
+    font-size: 14px;
+    font-family: Arial;
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 5px;
+    line-height: 24px;
+    /* padding: 10px; */
+    margin-left: 20%;
+  }
+    .footer {
+      
+        font-family: Arial; 
+        font-size:16px; 
+        line-height:30px; 
+        color:#eee; 
+       
+}
+ .content{
+     padding-right: 10%;
+ }
+ .image-set{
+  vertical-align: top;
+  width: 25%; 
+ }
+
+ .image-cropper {
+    width: 90px;
+    height: 90px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    background-size: cover;
+    /* padding-left:40% ; */
+}
+.main {
+ width: 240px;
+ padding: 0 10px;
+ /* min-height: 150px; */
+
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 40%;
+  }
+  
+  .flip-card {
+    background-color: #eee;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* backface-visibility: hidden; */
+  }
+  
+  .flip-card-front {
+    background-color:#1e82b6;
+    color: black;
+    /* border-radius: 40%; */
+  }
+  
+  .flip-card-back {
+    background-color:white;
+    color:black;
+    transform: rotateY(180deg);
+  }
